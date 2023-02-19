@@ -1,0 +1,92 @@
+body, html{
+    height: 100;
+    margin: 0px;
+    background-color:darkgray;
+}
+
+nav li{
+    display: inline;
+    margin: 25px;
+}
+
+nav a:hover{
+    color:aqua;
+}
+
+nav ul{
+    background-color: lightgrey;
+    padding: 20px;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+}
+.articles, .form-article {
+    background-color: lightgrey;
+}
+
+.form-article, .articles{
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+nav{
+    color: black;
+}
+
+nav a:visited{
+    color: black;
+ }
+ 
+ nav a:hover{
+     color:antiquewhite;
+ }
+
+ .Nav-Image{
+    background-image:url("../images/road.jpg");
+    height: 100%;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .8;
+
+    
+ }
+
+ .Nav-Text{
+    color: white;
+    font-size: larger;
+    text-align: center;
+
+ }
+
+ #body{
+    width:75%;
+    float: left;
+    padding: 10px;
+    padding-left: 10px;
+ }
+
+ #form{
+    width:20%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+ }
+
+ #Family-image{
+    width: 60%;
+ }
+
+ #Hobbies-image{
+    width: 30%;
+    border-radius: 10%;
+ }
+
+ #Goals-image{
+    width: 30%;
+    border-radius: 10%;
+ }
+ 
+
